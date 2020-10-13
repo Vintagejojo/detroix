@@ -1,0 +1,340 @@
+/* This is Jojos work right here  */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f1f4f4;
+}
+
+footer {
+    background: black
+}
+
+li {
+    list-style-type: none;
+}
+ div.containertwo {
+    margin-top: 40px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 10px;
+    /* padding: 0 15px; */
+    /* height: 40px;
+    width: 70px; */
+    padding: 5px 10px;
+    background: #131d29;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+     text-align: float: ;
+}
+
+ul a.button {
+    float: right;
+    margin-top: 30px;
+}
+
+a.button {
+    margin-right: 5px;
+}
+
+a.button:hover
+ {
+   color: #fff;
+   background: #fe8a00;
+   text-decoration:none;
+   cursor:pointer;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+  .container {
+    width: 940px;
+    margin: 0 auto;
+    height: 30px;
+} 
+
+  .containertwo {
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  .maincontainer {
+      width: auto;
+      background: #304D69;
+      padding-bottom: 1px;
+  }
+/* column mods */
+
+  .column {
+      width: calc(100%/3);
+      float: left;
+      padding-right: 6px;
+      /* margin-right: 1px;
+      border-right: solid gray; */
+  }
+
+  h1.columnhead {
+      margin-bottom: 41px;
+  }
+  
+  img.columnimage {
+      margin-bottom: 42;
+  }
+
+  p .columnpar {
+      margin-top: 40px;
+  }
+
+  p.opportunitytext {
+    color: #48596b;
+    margin-left: 10px;
+  }
+
+  div.column {
+    margin-top: 90px;
+  }
+
+  a.buttontwo{
+    display: inline-block;
+    border-radius: 10px;
+    float: left;
+    padding: 5px 10px;
+    background: #131d29;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  a.buttontwo:hover
+ {
+   color: #fff;
+   background: #fe8a00;
+   text-decoration:none;
+   cursor:pointer;
+  }
+
+
+  a.buttonthree{
+    display: inline-block;
+    border-radius: 10px;
+    float: left;
+    padding: 5px 10px;
+    background: #131d29;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+
+  a.buttonthree:hover
+ {
+   color: #fff;
+   background: #fe8a00;
+   text-decoration:none;
+   cursor:pointer;
+  }
+/* column mods ending */
+
+
+
+/* main tag region mods */
+
+div.maincolumn {
+    width: calc(940px/3);
+    float: left;
+}
+
+h2.mainclassheader {
+    font-size: 24px;
+    color: #fff;
+    /* margin-top: 60px; */
+    margin-bottom: 34px;
+    margin-left: 38px;
+    padding-top: 60px;
+}
+.maintagtext {
+    
+}
+/* li.cogimagetext {
+    background: url(../images/cog.png) no-repeat 0 3px;
+    padding-right: 6px;
+} */
+
+div.services {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+ li.cogimagetext {
+    background: url(../images/cog.png) no-repeat 0 3px;
+    padding-bottom: 8px; 
+}
+
+.cogimagetext, a {
+    text-decoration: none;
+    color: rgb(199, 172, 172);
+    padding-left: 12px;
+    margin-bottom: 22px;
+    font-weight: bold;
+}
+
+ li.textboximage{
+    background: url(../images/chat.png) no-repeat 0 3px;
+}
+
+.textboximage, a {
+    padding-left: 10px;
+}
+
+.minidiv {
+    /* height:60px; */
+    /* width: 60px; */
+    background: #be8442;
+    border-radius: 10px;
+    padding: 5px 12px;
+    float: left;
+}
+
+.minidivtwo {
+    /* height:60px; */
+    /* width: 60px; */
+    background: #bc6142;
+    border-radius: 10px;
+    padding: 5px 12px;
+    float: left;
+}
+
+.minidivthree {
+    /* height:60px; */
+    /* width: 60px; */
+    background: #bd425e;
+    border-radius: 10px;
+    padding: 5px 12px;
+    float: left;
+}
+
+ p.day {
+    display: block;
+    font-size: 48px;
+}
+
+p.month {
+    font-size: 16px;
+}
+
+
+/* main tag region  mod ends */
+
+  .topbar {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background: #131d29;
+    color: #5a6674;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.topbar a {
+    color: #5a6674;
+}
+
+.top-bar a:hover {
+    color: #fff;
+}
+
+div.logo {
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+
+.corporate-nav {
+    float: right;
+}
+
+.corporate-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.corporate-nav li {
+    border-right: 1px solid #5a6674;
+    padding-right: 7px;
+    margin-right: 2px;
+}
+
+ li.lasteleye {
+    border: none;
+}
+
+.news p { 
+    line-height: 1.5;
+    margin-top: 0;
+    color: honeydew;
+}
+
+p.day, p.month {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+p.month {
+    margin-bottom: 1px;
+}
+
+p.day {
+    margin-bottom: -20px;
+}
+
+p.newsparagraph {
+    padding-top: 15px;
+    margin-left: 88px;
+    padding-right: 1px;
+    color: #48596b;
+}
+/* The bar at the bottom of the page css */
+
+div.bottombar {
+    background: black;
+    height: 100px;
+    width: auto;
+}
+
+p.finaltext {
+    color: #52575d;
+    padding-top: 30px;
+    font-size: 17px;
+    font-weight: 500;
+
+}
